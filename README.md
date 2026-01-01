@@ -1,5 +1,7 @@
 # 🤖 AI Voice & Text Laptop Assistant (PWA)
 
+![AI Voice & Text Laptop Assistant](https://github.com/ayesha1332/AI-Voice-Text-LaptopAssistant-PWA-/blob/main/AI%20Voice%20&%20Text%20Laptop%20Assistant%20(PWA).png?raw=true)
+
 ## 📌 Project Overview
 
 I built a **JavaScript-based AI Assistant** that allows to **control and manage laptop tasks using voice (oral) and text commands**.
