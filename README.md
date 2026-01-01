@@ -2,10 +2,10 @@
 
 ## 📌 Project Overview
 
-You built a **JavaScript-based AI Assistant** that allows you to **control and manage laptop tasks using voice (oral) and text commands**.
-The project works as a **Progressive Web App (PWA)**, meaning you can **install it on mobile or PC** and use it like a native application.
+I built a **JavaScript-based AI Assistant** that allows to **control and manage laptop tasks using voice (oral) and text commands**.
+The project works as a **Progressive Web App (PWA)**, meaning i can **install it on mobile or PC** and use it like a native application.
 
-This assistant listens to your commands, understands them, and performs actions such as opening apps, executing tasks, and responding intelligently.
+This assistant listens to my commands, understands them, and performs actions such as opening apps, executing tasks, and responding intelligently.
 
 ---
 
