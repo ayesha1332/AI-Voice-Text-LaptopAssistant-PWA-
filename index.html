@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Voice AI Assistant — Ayesha</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#4f46e5">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="container">
+<h1>Voice AI Assistant — <span class="accent">Ayesha</span></h1>
+
+
+<div class="controls">
+<label for="lang">Language</label>
+<select id="lang">
+<option value="en-US">English (US)</option>
+<option value="ur-PK">اردو (Urdu)</option>
+</select>
+
+
+<label for="wake">Wake word</label>
+<input id="wake" placeholder="Hey Ayesha" value="hey ayesha" />
+
+
+<button id="toggle-listen">Start Listening</button>
+<button id="stop">Stop</button>
+</div>
+
+
+<section class="log">
+<h2>Conversation</h2>
+<div id="messages"></div>
+</section>
+
+
+<section class="quick">
+<h3>Try commands</h3>
+<ul>
+<li>"Open YouTube" / "YouTube کھولیں"</li>
+<li>"Search for cat videos" / "بِلّیاں دیکھائیں"</li>
+<li>"What time is it?" / "کتنے بجے ہیں؟"</li>
+<li>"Play music" (controls audio on this page)</li>
+</ul>
+</section>
+
+
+</main>
+<script src="/app.js" defer></script>
+</body>
+</html>

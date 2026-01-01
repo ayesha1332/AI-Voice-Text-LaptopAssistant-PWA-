@@ -1,0 +1,15 @@
+:root{--bg:#0f172a;--card:#0b1220;--accent:#7c3aed;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,#020617, #071033);color:#e6eef8;min-height:100vh}
+.container{max-width:920px;margin:32px auto;padding:20px;background:rgba(255,255,255,0.02);border-radius:14px}
+h1{font-size:1.5rem;margin:0 0 14px}
+.accent{color:var(--accent)}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.controls select,input,button{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+button{cursor:pointer}
+.log{margin-top:12px}
+#messages{margin-top:8px;padding:10px;background:rgba(255,255,255,0.01);border-radius:8px;min-height:160px}
+.message{margin-bottom:10px}
+.message.you{color:#cfe8ff}
+.message.bot{color:#ffd9f4}
+.quick{margin-top:12px;font-size:0.95rem}
+@media(max-width:600px){.controls{flex-direction:column;align-items:stretch}}
